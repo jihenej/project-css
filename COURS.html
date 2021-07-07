@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <!-- this is the header part -->
+    <header>
+      <!-- navbar declaration -->
+      <ul>
+        <li>
+          <a href="#"><i>Home</i></a>
+        </li>
+        <li>
+          <a href="#about"><i>About</i></a>
+        </li>
+        <li>
+          <a href="#work"><i>Work</i></a>
+        </li>
+        <li>
+          <a href="#resume"><i>Resume</i></a>
+        </li>
+        <li>
+          <a href="#contact"><i>Contact</i></a>
+        </li>
+        <input id="src wihbar" type="search" placeholder="Search" />4
+      </ul>
+    </header>
+
+    <!-- this is the main part -->
+    <main>
+      <h1>General presentation:</h1>
+
+      <p>
+        Hello everyone, today I will introduce myself. you can navigate the
+        entire page to better understand.
+      </p>
+
+      <img src="./res/image4.jfif" />
+      <!-- Home section declaration -->
+      <section id="Home">
+        <h1>Home:</h1>
+        <img src="./res/image5.jfif" />
+        <br />
+        <br />
+        <iframe
+          width="950"
+          height="480"
+          src="https://www.youtube.com/embed/4wLflrOIb80"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
+
+      <!-- About section declaration -->
+      <section id="about">
+        <div>
+          <h1>self-presentation:</h1>
+
+          <br />
+          <img src="./res/image3.jfif" />
+          <p>My name is Jihéne JAZIRI. I am a web developer.</p>
+        </div>
+      </section>
+
+      <!-- work section declaration -->
+      <section id="work"></section>
+      <div>
+        <h1>Educational trail:</h1>
+        <br />
+        <img src="./res/image6.png" />
+        <br />
+        <p>
+          Then I was in a private school of the Tunisian system for 8 years,
+          afterwards I joined a school of the French system called "Pierre
+          Mendes France"
+        </p>
+      </div>
+
+      <!-- Resume section declaration -->
+      <section id="resume">
+        <div>
+          <br />
+          <h1>self-description:</h1>
+          <br />
+          <img src="./res/image7.jfif" />
+          <br />
+          <p>
+            i am a sweet and modest girl but i am shy. i have a strong temper
+            and look so fragile and nervous when spoken to.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <hr />
+    <!--contact section declaration -->
+    <section id="contact">
+      <h1>Some contacts:</h1>
+      <br />
+      <img src="./res/image8.png" />
+      <p>
+        if you have any questions you can contact me by the following number:
+        +216 00 000 000
+      </p>
+    </section>
+
+    <footer>
+      <p>@ By Jihéne jaziri le 29/06/2021</p>
+      <form>
+        <label for="fname">First name:</label>
+        <input
+          type="text"
+          name="fname"
+          placeholder="Enter your first name"
+        /><br />
+        <label for="lname">Last name:</label>
+        <input
+          type="text"
+          name="lname"
+          placeholder="Enter your last name"
+        /><br /><br />
+        <label for="lname">Phone number:</label>
+        <input
+          type="number"
+          name="phoneNumber"
+          value="00 000 000"
+        /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </footer>
+  </body>
+</html>
